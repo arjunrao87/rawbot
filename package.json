@@ -1,5 +1,5 @@
 {
-  "name": "rawger",
+  "name": "rawbot",
   "version": "1.0.0",
   "description": "Converts BLOB links of Github/Gitlab to Raw links",
   "author": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "github",
-    "url": "https://github.com/arjunrao87/rawger.git"
+    "url": "https://github.com/arjunrao87/rawbot.git"
   },
   "main": "index.js",
   "license": "MIT",

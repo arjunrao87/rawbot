@@ -6,6 +6,13 @@ You can probably do this using the right APIs but this is a quick and dirty way 
 
 Note : For Gitlab the transformed link actually exists whereas for Github it results in a rerouting.
 
+# Usage
+
+```
+var rawbot = require('rawbot');
+const raw = rawbot.toRaw("https://github.com/arjunrao87/the-one/blob/master/App.js");
+```
+
 # Running tests
 
 ```

@@ -1,4 +1,4 @@
-# Rawger 
+# Rawger [![CircleCI](https://circleci.com/gh/arjunrao87/rawger.svg?style=svg)](https://circleci.com/gh/arjunrao87/rawger)
 
 ## Convert BLOB URLs of Github/Gitlab to their raw format
 

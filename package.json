@@ -1,6 +1,13 @@
 {
   "name": "rawger",
   "version": "1.0.0",
+  "description": "Converts BLOB links of Github/Gitlab to Raw links",
+  "author": {
+    "name": "Arjun Rao"
+  },
+  "repository": {
+     "url": "https://github.com/arjunrao87/rawger"
+  },
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {

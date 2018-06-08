@@ -13,6 +13,10 @@ var rawbot = require('rawbot');
 const raw = rawbot.toRaw("https://github.com/arjunrao87/the-one/blob/master/App.js");
 ```
 
+# NPM 
+
+Package available at [NPM](https://www.npmjs.com/package/rawbot)
+
 # Running tests
 
 ```

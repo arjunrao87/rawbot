@@ -23,7 +23,7 @@ jobs:
       - run: npm install
       - run:
           name: Run tests
-          command: npm test
+          command: ./node_modules/ava/cli.js
 
       - save_cache:
           paths:

@@ -25,7 +25,6 @@ jobs:
           command: ./node_modules/ava/cli.js
 
   deploy:
-    <<: *defaults
     steps:
       - run:
           name: Authenticate with registry

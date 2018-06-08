@@ -6,7 +6,8 @@
     "name": "Arjun Rao"
   },
   "repository": {
-     "url": "https://github.com/arjunrao87/rawger"
+    "type": "github",
+    "url": "https://github.com/arjunrao87/rawger.git"
   },
   "main": "index.js",
   "license": "MIT",

@@ -5,9 +5,6 @@
 version: 2
 jobs:
   build:
-    dependencies:
-      pre:
-        - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
     docker:
       # specify the version you desire here
       - image: circleci/node:8.9
@@ -38,6 +35,10 @@ jobs:
 
       # run tests!
       - run: ./node_modules/ava/cli.js
+
+    dependencies:
+          pre:
+            - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
 
     deployment:
       npm:

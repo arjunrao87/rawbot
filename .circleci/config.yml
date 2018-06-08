@@ -34,5 +34,5 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - run: # run tests
-        name: test
-        command: ./node_modules/ava/cli.js
+          name: test
+          command: ./node_modules/ava/cli.js

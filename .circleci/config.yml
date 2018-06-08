@@ -33,15 +33,16 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      # run tests!
-      - run: ./node_modules/ava/cli.js
+      - run: # run tests
+        name: test
+        command: ./node_modules/ava/cli.js
 
-    dependencies:
-          pre:
-            - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+      dependencies:
+            pre:
+              - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
 
-    deployment:
-      npm:
-        tag: /v[0-9]+(\.[0-9]+)*/
-            commands:
-          - npm publish
+      deployment:
+        npm:
+          tag: /v[0-9]+(\.[0-9]+)*/
+              commands:
+            - npm publish
